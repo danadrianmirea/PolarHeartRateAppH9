@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhysioSENSE - Polar Module</string>
+    <string name="selectDevice">Select Your device</string>
+    <string name="action_settings">Disconnect</string>
+    <string name="couldnotconnect">Error! Unable to the Polar device</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetoothOff">Your bluetooth capabilities are disabled, would you like to turn it on?</string>
+    <string name="rpm">BPM</string>
+    <string name="min">min</string>
+    <string name="max">max</string>
+    <string name="avg">avg</string>
+    <string name="about">About</string>
+    <string name="title_activity_about">About</string>
+
+    <string name="aboutText">
+
+        \n © 2017 NeuroRehabLab,M-ITI
+        \n feedbacks: harry.vasanth@m-iti.org
+
+</string>
+
+</resources>
