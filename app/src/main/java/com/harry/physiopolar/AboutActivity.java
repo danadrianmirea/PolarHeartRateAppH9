@@ -1,8 +1,8 @@
 package com.harry.physiopolar;
 
-
 import android.app.Activity;
 import android.os.Bundle;
+
 /**
  * About activy displaing info about the app
  * @author marco
@@ -10,8 +10,8 @@ import android.os.Bundle;
  */
 public class AboutActivity extends Activity {
 
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_about);
-	}
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_about);
+  }
 }
