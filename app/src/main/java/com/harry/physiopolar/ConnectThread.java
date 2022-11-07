@@ -42,9 +42,7 @@ public class ConnectThread extends Thread {
     // Cancel discovery because it will slow down the connection
     mBluetoothAdapter.cancelDiscovery();
     int ok = 0;
-    while (
-      ok < 2
-    ) try { //loop to try to connect
+    while (ok < 2) try { //loop to try to connect
       // Connect the device through the socket. This will block
       // until it succeeds or throws an exception
       if (mmSocket.isConnected()) mmSocket.close();
@@ -52,9 +50,7 @@ public class ConnectThread extends Thread {
       ok = 5;
     } catch (IOException connectException) {
       // Unable to connect; close the socket and get out
-      if (
-        ok == 0
-      ) ok++; else { // try 2 times
+      if (ok == 0) ok++; else { // try 2 times
         ac.connectionError();
         Log.e(
           "ConnectThread",
